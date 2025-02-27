@@ -2,13 +2,10 @@
 import { defineConfig } from "astro/config";
 
 import svelte from "@astrojs/svelte";
-
-import node from "@astrojs/node";
-
-import db from "@astrojs/db";
-
 import react from "@astrojs/react";
 import tailwindcss from "@tailwindcss/vite";
+import node from "@astrojs/node";
+import db from "@astrojs/db";
 
 // https://astro.build/config
 export default defineConfig({
@@ -22,3 +19,4 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
 });
+
